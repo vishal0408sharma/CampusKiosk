@@ -15,7 +15,7 @@ PHP<br>
 sql<br>
 
 Developed by -<br>
-Vishal Sharma <br>
+<a href="https://github.com/vishal0408sharma">Vishal Sharma </a><br>
 Ganesh Sawhney<br>
 Arnav Gupta<br>
 Mukesh Mishra<br>
