@@ -1,0 +1,146 @@
+#myhd{
+font-size: 20px;
+font-family:sans-Serif;
+}
+
+
+#tagline{
+background: #1abc9c;
+ font-weight: bold; 
+color: white; 
+text-shadow: 0 0 3px #FF0000;
+    text-decoration-color: red;
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+padding: 8px;
+  margin: 5px;
+  width: 93%;
+  display: inline-block;
+  font-size: 70px;
+  border-radius: 5px;
+  border: 10px solid #1e90ff;
+  -webkit-transition: 2s linear;
+  -moz-transition: 2s linear;
+  -o-transition: 2s linear;
+  transition: 2s linear;
+}
+
+.formholder input[type="text"],
+.formholder input[type="number_format"],
+.formholder input[type="date"],
+.formholder textarea,
+.formholder select,
+.formholder input[type="email"]{
+  padding: 8px;
+  margin: 5px;
+  width: 93%;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #1e90ff;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+  }
+
+/*@media (max-width: 640px) {
+section form div.academic_info {
+        text-align: left !important;
+        float: left !important;
+    }
+}*/
+
+section select{
+width: 93%;
+border-radius: 5px;
+padding: 8px;
+margin: 5px;
+display: inline-block;
+height: 40px;
+border: 2px solid #1e90ff;
+font-size: 18px;
+}
+
+
+
+section textarea{
+width: 93%;
+border-radius: 5px;
+padding: 8px;
+margin: 5px;
+display: inline-block;
+height: 40px;
+border: 2px solid #1e90ff;
+font-size: 18px;
+}
+
+.formholder input[type="button"]{
+  background: #1abc9c;
+  padding: 10px;
+  font-size: 20px;
+  /*margin-left: 530px;
+  display: inline-block;
+  width: 20%;*/
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+.formholder input[type="submit"]{
+  background: #1abc9c;
+  padding: 10px;
+  font-size: 20px;
+  /*margin-left: 530px;
+  display: inline-block;
+  width: 20%;*/
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.formholder input[type="submit"]:hover{
+  background: #66cdaa;
+}
+.formholder input[type="button"]:hover{
+  background: #66cdaa;
+}
+
+#dispinfo{
+font-size: 18px; 
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+padding: 8px;
+  margin: 5px;
+  width: 93%;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #1e90ff;
+  -webkit-transition: 1.8s linear;
+  -moz-transition: 1.8s linear;
+  -o-transition: 1.8s linear;
+  transition: 1.8s linear;
+}
+
+
+#dispinfoh{
+background: #66cdaa;
+font-size: 18px;
+ font-weight: bold; 
+font-family: 'Trebuchet MS', Helvetica, sans-serif;
+padding: 8px;
+  margin: 5px;
+  width: 93%;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 10px solid #1e90ff;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+#formvalue{
+font-size: 20px;
+font-family:sans-Serif;}

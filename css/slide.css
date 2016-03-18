@@ -1,0 +1,21 @@
+#flip {
+	font-size: 35px;
+color: orange;
+text-shadow: 1px 1px 2px #000000 , 2px 2px 4px #cd853f;
+    padding: 5px;
+    text-align: center;
+    background-color: skyblue;
+    border: solid 2px green;
+}
+
+#panel {
+	font-size: 23px;
+color: violet;
+text-shadow: 1px 1px 2px #000000 , 2px 2px 4px #cd853f;
+    padding: 50px;
+	 margin-left:0px
+	 
+	background-color:pink;
+	border: solid 2px white;
+    display: none;
+}

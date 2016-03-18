@@ -1,0 +1,289 @@
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  border: 0; 
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+body {
+  line-height: 1; 
+ }
+ 
+ textarea {
+    height: 1em;
+    width: 50%;
+    padding: 3px;
+    transition: all 0.5s ease;
+}
+
+textarea:focus {
+    height: 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-weight: normal; }
+  
+ol, ul {
+  list-style: none; }
+
+blockquote {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+del {
+  text-decoration: line-through; }
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; 
+  }
+
+a img {
+  border: none; }
+
+/* =Scss Variables
+-------------------------------------------------------------- */
+/* =Global
+-------------------------------------------------------------- */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 2;
+  font-weight: 300; }
+  
+a {
+  text-decoration: none;
+  color: #3cb5f9; }
+
+
+a:hover {
+  color: white; }  
+/* =Header
+-------------------------------------------------------------- */
+header {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: url("image/headerback.png") repeat;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s; 
+  }
+
+header h1#logo {
+  display: inline-block;
+  height: 200px;
+  line-height: 200px;
+  float: left;
+  font-family: "Oswald", sans-serif;
+  font-size: 58px;
+  color: white;
+  font-weight: 700;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; 
+	}
+
+header nav {
+  display: inline-block;
+  float: right; 
+	}
+	
+header nav a {
+  line-height: 80px;
+  margin-left: 20px;
+  color: #9fdbfc;
+  font-weight: 700;
+  font-size: 22px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; 
+  text-shadow: 1px 1px 2px black;
+  }
+  
+  
+header nav a:hover {
+  color: white; 
+  font-size: 25px;
+  }
+  
+header.smaller {
+  height: 100px; 
+  }
+ 
+header.smaller h1#logo {
+  height: 100px;
+  line-height: 75px;
+  font-size: 30px; 
+  }
+  
+header.smaller nav a {
+  line-height: 75px; 
+  }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  clear: both;
+  height: 0; }
+
+/*---------------------------------------------------------------------------
+--- Templates--------------------------------------------------------------*/
+
+#main {
+  background-color: #fff;
+  padding-top: 150px; 
+}
+  
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 30px; 
+}  
+
+section {
+  padding: 60px	;
+  border: 0px solid black;
+  height: 200px;
+  background: linear-gradient(#191970 ,#e6e6fa);
+  width: 80%;
+  margin-left: 140px;}
+section #article1{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 4px 4px 6px #000080;
+  }
+  
+section.color {
+  background: linear-gradient(#00ffff,#e6e6fa);
+  color: white; 
+  }
+section #article2{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 4px 4px 6px #20b2aa;
+  } 
+	
+section.color2{
+  background: linear-gradient(#cd5c5c,#e6e6fa);
+  color: white;
+  }
+section #article3{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 4px 4px 6px #dc143c;
+  
+  }  
+	
+section.color3{
+  background: linear-gradient(#4169E1,#e6e6fa);
+  color: white;
+  }
+section #article4{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  }  
+	
+section.color4{ 
+  background: linear-gradient(#daa520,#e6e6fa);
+  color: white;
+  }
+section #article5{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  }
+	
+footer{
+border: 0px solid black;
+width: 100%;
+height: 226px;
+left: 0px;
+right: 0px;
+padding: 0px;
+margin: 0px;
+position: absolute;
+background: #5F9EA0;
+}
+
+footer ul{
+display: inline-block;
+
+}
+
+footer li{
+list-style: none;
+line-height: 200%;
+}
+
+
+footer a{
+font-size: 20px;
+float: left;
+text-decoration: none;
+color: white;
+text-shadow: 1px 1px 2px #000000;
+font-weight: bold;
+}
+
+footer .right{
+float: right;
+line-height: 230%;
+text-shadow: 1px 1px 2px #000000;
+}
+
+footer h4{
+font-size: 25px;
+font-weight: bold;
+color: white;
+}
+
+footer p{
+font-size: 19px;
+font-weight: bold;
+color: white;
+}
+
+footer .footer_img{
+margin-right: 230px;
+}
+
+.footer_img img{
+margin: 0 5px;
+display: inline-block;
+float: right;
+}

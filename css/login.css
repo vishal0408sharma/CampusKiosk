@@ -1,0 +1,167 @@
+header , section{
+overflow: hidden:
+}
+
+table ,tr, td{
+border-collapse: collapse;
+}
+
+
+header{
+border: 0px solid grey;
+position: fixed;
+top : 0px;
+margin: 0px;
+padding: 0px;
+left: 0px;
+right: 50px;
+width: 100%;
+height: 130px;
+overflow: hidden;  
+}
+
+.title{
+background: rgba(0,0,80,0.25);
+height: 135px;
+overflow: hidden;
+box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 20px rgba(255,255,255,0.2), inset 0 15px 25px rgba(255,255,255,0.25) , inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+h2{
+text-align: center;
+font-size: 40px;
+color: #b22222;
+text-shadow: 1px 1px 2px #000000 , 2px 2px 4px #cd853f;
+}
+
+h3{
+overflow: hidden;
+text-align: right;
+}
+
+img{
+height: 129px;
+}
+
+/*
+nav{
+border: 1px solid black;
+position: fixed;
+margin: 0px;
+padding: 0px;
+left: 0px;
+right: 0px;
+width: 100%;
+height: 65px;
+top: 130px;
+}
+*/
+
+section{
+border: 0px solid black;
+position: fixed;
+margin: 0px;
+padding: 0px;
+left: 0px;
+right: 0px;
+width: 100%;
+height: 470px;
+top: 129px;
+overflow: hidden;
+}
+
+article{
+background: #d3d3d3;
+height: 470px;
+
+}
+
+p{
+text-align: center;
+font-size: 30px;
+font-weight: bold italic;
+font-family: verdana;
+color: blue;
+}
+
+form{
+text-align: center;
+display: block;
+float: center;
+}
+
+.image{
+
+}
+
+.formholder input[type="ID"], .formholder input[type="password"] {
+  padding: 8px;
+  margin: 5px;
+  width: 92%;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.formholder input[type="ID"]:focus, .formholder input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #1abc9c;
+}
+
+.formholder input[type="submit"]{
+  background: #1abc9c;
+  padding: 8px;
+  font-size: 20px;
+  margin: 0px;
+  display: inline-block;
+  width: 94%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.formholder input[type="submit"]:hover {
+  background: #66cdaa;
+}
+
+.formholder input[type="forget_password"] {
+  background: #ff6347;
+  padding: 8px;
+  font-size: 20px;
+  margin: 0px;
+  display:inline-block;
+  width: 85%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.formholder input[type="forget_password"]:hover {
+  background: #ff7f50;
+}
+
+select{
+width: 92%;
+border-radius: 5px;
+padding: 8px;
+margin: 5px;
+display: inline-block;
+height: 40px;
+border: none;
+font-size: 18px;
+
+}
+
+.photos{
+width: 95%;
+height: 400px;
+background: url("MNNIT-Allahabad.jpg");
+background-size: 100% 100%;
+border-radius: 10px;
+}
+	

@@ -1,0 +1,28 @@
+h2{
+
+ 
+  margin-left: 250px;
+  color: #9fdbfc;
+  font-weight: 700;
+  font-size: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; 
+  text-shadow: 1px 1px 2px #4169E1;
+}
+p1{
+	
+  color: orange;
+  font-weight: 700;
+  font-size: 23px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; 
+  text-shadow: 1px 1px 2px #4169E1;
+}
+p2{
+	 color: orange;
+  font-weight: 700;
+  font-size: 23px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; 
+  text-shadow: 1px 1px 2px #4169E1;
+}

@@ -1,0 +1,28 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+#mask {
+  position: relative;
+  height: 100%;
+  background-color: rgba(0,10,20,0.6);
+}
+
+#pic {
+  background-image: url('image/12.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  height: 300px;
+}
+
+#txt {
+  position: relative;
+  color: white;
+  left: 250px;
+  top: 90px;
+  font-size: 50px;
+}
+

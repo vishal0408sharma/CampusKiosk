@@ -1,0 +1,67 @@
+
+
+.formholder input[type="text"],
+.formholder input[type="number_format"],
+.formholder input[type="date"],
+.formholder input[type="email"]{
+  padding: 8px;
+  margin: 5px;
+  width: 93%;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #1e90ff;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+  }
+
+/*@media (max-width: 640px) {
+section form div.academic_info {
+        text-align: left !important;
+        float: left !important;
+    }
+}*/
+
+section select{
+width: 93%;
+border-radius: 5px;
+padding: 8px;
+margin: 5px;
+display: inline-block;
+height: 40px;
+border: 2px solid #1e90ff;
+font-size: 18px;
+}
+
+section textarea{
+width: 93%;
+border-radius: 5px;
+padding: 8px;
+margin: 5px;
+display: inline-block;
+height: 40px;
+border: 2px solid #1e90ff;
+font-size: 18px;
+}
+
+.formholder input[type="submit"]{
+  background: #1abc9c;
+  padding: 4px;
+  font-size: 20px;
+  margin-left: 530px;
+  display: inline-block;
+  width: 20%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.formholder input[type="submit"]:hover {
+  background: #66cdaa;
+}
+
+#formvalue{
+font-size: 20px;
+font-family:sans-Serif;}
