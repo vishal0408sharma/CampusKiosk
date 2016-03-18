@@ -14,11 +14,11 @@ javascript<br>
 PHP<br>
 sql<br>
 
-Developed by -
-Vishal Sharma 
-Ganesh Sawhney
-Arnav Gupta
-Mukesh Mishra
+Developed by -<br>
+Vishal Sharma <br>
+Ganesh Sawhney<br>
+Arnav Gupta<br>
+Mukesh Mishra<br>
 
 
 
