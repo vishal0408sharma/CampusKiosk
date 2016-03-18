@@ -6,19 +6,19 @@ The system can be accessed by every students/faculties/employees of
 the institution through internet connected computers or internet enabled 
 mobile devices with the aid of his user name and password. 
 
-There are 3 modes of login -
-admin
-student 
-teacher
-
 Technologies used -
-HTML5
-CSS3
-javascript
-PHP
-sql
+
+HTML5<br>
+CSS3<br>
+javascript<br>
+PHP<br>
+sql<br>
+
+Developed by -
+Vishal Sharma 
+Ganesh Sawhney
+Arnav Gupta
+Mukesh Mishra
 
 
 
-For any queries contact -
-vishal0408sharma@gmail.com
